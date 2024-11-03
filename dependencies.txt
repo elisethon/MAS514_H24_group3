@@ -1,0 +1,29 @@
+# Needed packages for the project
+
+# Assign. 1
+sudo apt update
+sudo apt install ros-jazzy-teleop-twist-joy
+sudo apt install ros-jazzy-joy
+sudo apt install python3-serial
+sudo apt install ros-jazzy-twist-mux
+
+
+# Assign. 2
+
+
+
+# Assign. 3
+sudo apt install ros-jazzy-slam-toolbox
+sudo apt install ros-jazzy-robot-localization
+
+
+sudo apt install libgeographiclib-dev
+sudo apt install ros-jazzy-geographic-msgs
+sudo apt install ros-jazzy-diagnostic-updater
+sudo apt install ros-jazzy-message-filters
+
+# Assign. 4
+
+
+# CAN BE SKIPPED
+sudo apt install ros-jazzy-teleop-twist-keyboard
