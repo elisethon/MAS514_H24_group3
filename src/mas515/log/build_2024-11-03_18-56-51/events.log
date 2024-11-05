@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.011775] (odometry) JobQueued: {'identifier': 'odometry', 'dependencies': OrderedDict()}
+[0.011820] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.011839] (odometry) JobStarted: {'identifier': 'odometry'}
+[0.113659] (-) TimerEvent: {}
+[0.216501] (-) TimerEvent: {}
+[0.319149] (-) TimerEvent: {}
+[0.421773] (-) TimerEvent: {}
+[0.545590] (-) TimerEvent: {}
+[0.649551] (-) TimerEvent: {}
+[0.752589] (-) TimerEvent: {}
+[0.856614] (-) TimerEvent: {}
+[0.957537] (-) TimerEvent: {}
+[1.062659] (-) TimerEvent: {}
+[1.165779] (-) TimerEvent: {}
+[1.277938] (-) TimerEvent: {}
+[1.383612] (-) TimerEvent: {}
+[1.488606] (-) TimerEvent: {}
+[1.591533] (-) TimerEvent: {}
+[1.693896] (-) TimerEvent: {}
+[1.794614] (-) TimerEvent: {}
+[1.895017] (-) TimerEvent: {}
+[1.995927] (-) TimerEvent: {}
+[2.105918] (-) TimerEvent: {}
+[2.207655] (-) TimerEvent: {}
+[2.355569] (-) TimerEvent: {}
+[2.456103] (-) TimerEvent: {}
+[2.558973] (-) TimerEvent: {}
+[2.659693] (-) TimerEvent: {}
+[2.760330] (-) TimerEvent: {}
+[2.861136] (-) TimerEvent: {}
+[2.962072] (-) TimerEvent: {}
+[3.064286] (-) TimerEvent: {}
+[3.164986] (-) TimerEvent: {}
+[3.269631] (-) TimerEvent: {}
+[3.376715] (-) TimerEvent: {}
+[3.481761] (-) TimerEvent: {}
+[3.584523] (-) TimerEvent: {}
+[3.686607] (-) TimerEvent: {}
+[3.793089] (-) TimerEvent: {}
+[3.895706] (-) TimerEvent: {}
+[3.998586] (-) TimerEvent: {}
+[4.102894] (-) TimerEvent: {}
+[4.135760] (odometry) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/odometry', 'build', '--build-base', '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/build', 'install', '--record', '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/src/odometry', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'entho', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/entho', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2159', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=87ea94a548ca75c75469a0a56727b7fb', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'entho', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'entho', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/entho-VirtualBox:@/tmp/.ICE-unix/2159,unix/entho-VirtualBox:/tmp/.ICE-unix/2159', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d5185794_d4a4_426c_9abb_84cdcf8d4da3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GM3IW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=87ea94a548ca75c75469a0a56727b7fb', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.204585] (-) TimerEvent: {}
+[4.312450] (-) TimerEvent: {}
+[4.414498] (-) TimerEvent: {}
+[4.518990] (-) TimerEvent: {}
+[4.622704] (-) TimerEvent: {}
+[4.725529] (-) TimerEvent: {}
+[4.838565] (-) TimerEvent: {}
+[4.911146] (odometry) StdoutLine: {'line': b'running egg_info\n'}
+[4.911394] (odometry) StdoutLine: {'line': b'creating ../../build/odometry/odometry.egg-info\n'}
+[4.941832] (-) TimerEvent: {}
+[4.973614] (odometry) StdoutLine: {'line': b'writing ../../build/odometry/odometry.egg-info/PKG-INFO\n'}
+[4.974119] (odometry) StdoutLine: {'line': b'writing dependency_links to ../../build/odometry/odometry.egg-info/dependency_links.txt\n'}
+[4.974481] (odometry) StdoutLine: {'line': b'writing entry points to ../../build/odometry/odometry.egg-info/entry_points.txt\n'}
+[4.974792] (odometry) StdoutLine: {'line': b'writing requirements to ../../build/odometry/odometry.egg-info/requires.txt\n'}
+[4.983713] (odometry) StdoutLine: {'line': b'writing top-level names to ../../build/odometry/odometry.egg-info/top_level.txt\n'}
+[4.984006] (odometry) StdoutLine: {'line': b"writing manifest file '../../build/odometry/odometry.egg-info/SOURCES.txt'\n"}
+[5.045918] (-) TimerEvent: {}
+[5.053561] (odometry) StdoutLine: {'line': b"reading manifest file '../../build/odometry/odometry.egg-info/SOURCES.txt'\n"}
+[5.066828] (odometry) StdoutLine: {'line': b"writing manifest file '../../build/odometry/odometry.egg-info/SOURCES.txt'\n"}
+[5.067950] (odometry) StdoutLine: {'line': b'running build\n'}
+[5.068155] (odometry) StdoutLine: {'line': b'running build_py\n'}
+[5.068472] (odometry) StdoutLine: {'line': b'creating /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/build\n'}
+[5.068689] (odometry) StdoutLine: {'line': b'creating /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/build/lib\n'}
+[5.068992] (odometry) StdoutLine: {'line': b'creating /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/build/lib/odometry\n'}
+[5.069114] (odometry) StdoutLine: {'line': b'copying odometry/velocity_publisher.py -> /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/build/lib/odometry\n'}
+[5.069401] (odometry) StdoutLine: {'line': b'copying odometry/__init__.py -> /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/build/lib/odometry\n'}
+[5.070001] (odometry) StdoutLine: {'line': b'copying odometry/odometry_publisher.py -> /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/build/lib/odometry\n'}
+[5.070126] (odometry) StdoutLine: {'line': b'running install\n'}
+[5.087902] (odometry) StdoutLine: {'line': b'running install_lib\n'}
+[5.129140] (odometry) StdoutLine: {'line': b'creating /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/python3.12/site-packages/odometry\n'}
+[5.129508] (odometry) StdoutLine: {'line': b'copying /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/build/lib/odometry/velocity_publisher.py -> /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/python3.12/site-packages/odometry\n'}
+[5.129800] (odometry) StdoutLine: {'line': b'copying /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/build/lib/odometry/__init__.py -> /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/python3.12/site-packages/odometry\n'}
+[5.130548] (odometry) StdoutLine: {'line': b'copying /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/build/lib/odometry/odometry_publisher.py -> /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/python3.12/site-packages/odometry\n'}
+[5.130680] (odometry) StdoutLine: {'line': b'byte-compiling /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/python3.12/site-packages/odometry/velocity_publisher.py to velocity_publisher.cpython-312.pyc\n'}
+[5.131735] (odometry) StdoutLine: {'line': b'byte-compiling /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/python3.12/site-packages/odometry/__init__.py to __init__.cpython-312.pyc\n'}
+[5.132123] (odometry) StdoutLine: {'line': b'byte-compiling /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisher.py to odometry_publisher.cpython-312.pyc\n'}
+[5.133462] (odometry) StdoutLine: {'line': b'running install_data\n'}
+[5.133670] (odometry) StdoutLine: {'line': b'creating /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/share/ament_index\n'}
+[5.133977] (odometry) StdoutLine: {'line': b'creating /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/share/ament_index/resource_index\n'}
+[5.134906] (odometry) StdoutLine: {'line': b'creating /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/share/ament_index/resource_index/packages\n'}
+[5.136241] (odometry) StdoutLine: {'line': b'copying resource/odometry -> /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/share/ament_index/resource_index/packages\n'}
+[5.136458] (odometry) StdoutLine: {'line': b'copying package.xml -> /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/share/odometry\n'}
+[5.136722] (odometry) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.149484] (-) TimerEvent: {}
+[5.190707] (odometry) StdoutLine: {'line': b'Copying ../../build/odometry/odometry.egg-info to /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/python3.12/site-packages/odometry-0.0.0-py3.12.egg-info\n'}
+[5.192120] (odometry) StdoutLine: {'line': b'running install_scripts\n'}
+[5.263512] (-) TimerEvent: {}
+[5.377657] (-) TimerEvent: {}
+[5.482581] (-) TimerEvent: {}
+[5.538411] (odometry) StdoutLine: {'line': b'Installing odometry_publisher script to /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/odometry\n'}
+[5.539103] (odometry) StdoutLine: {'line': b"writing list of installed files to '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/install.log'\n"}
+[5.586582] (-) TimerEvent: {}
+[5.612639] (odometry) CommandEnded: {'returncode': 0}
+[5.686917] (-) TimerEvent: {}
+[5.725708] (odometry) JobEnded: {'identifier': 'odometry', 'rc': 0}
+[5.726229] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[5.748665] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[5.748842] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/src/robot_description', '-DCMAKE_INSTALL_PREFIX=/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description'], 'cwd': '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'entho', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/entho', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2159', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=87ea94a548ca75c75469a0a56727b7fb', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'entho', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'entho', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/entho-VirtualBox:@/tmp/.ICE-unix/2159,unix/entho-VirtualBox:/tmp/.ICE-unix/2159', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d5185794_d4a4_426c_9abb_84cdcf8d4da3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GM3IW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=87ea94a548ca75c75469a0a56727b7fb', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.802575] (-) TimerEvent: {}
+[5.902950] (-) TimerEvent: {}
+[6.003656] (-) TimerEvent: {}
+[6.121632] (-) TimerEvent: {}
+[6.224601] (-) TimerEvent: {}
+[6.325254] (-) TimerEvent: {}
+[6.427127] (-) TimerEvent: {}
+[6.528622] (-) TimerEvent: {}
+[6.579931] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[6.629081] (-) TimerEvent: {}
+[6.729503] (-) TimerEvent: {}
+[6.829775] (-) TimerEvent: {}
+[6.930648] (-) TimerEvent: {}
+[7.033810] (-) TimerEvent: {}
+[7.134730] (-) TimerEvent: {}
+[7.235358] (-) TimerEvent: {}
+[7.336807] (-) TimerEvent: {}
+[7.445953] (-) TimerEvent: {}
+[7.522900] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[7.546233] (-) TimerEvent: {}
+[7.634921] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.650554] (-) TimerEvent: {}
+[7.755536] (-) TimerEvent: {}
+[7.869478] (-) TimerEvent: {}
+[7.974835] (-) TimerEvent: {}
+[8.075175] (-) TimerEvent: {}
+[8.173937] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.181495] (-) TimerEvent: {}
+[8.201980] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.244904] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.246420] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.283741] (-) TimerEvent: {}
+[8.293905] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.383849] (-) TimerEvent: {}
+[8.484391] (-) TimerEvent: {}
+[8.585808] (-) TimerEvent: {}
+[8.700501] (-) TimerEvent: {}
+[8.702078] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.723329] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.723862] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.727635] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.752533] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[8.801587] (-) TimerEvent: {}
+[8.904568] (-) TimerEvent: {}
+[9.021068] (-) TimerEvent: {}
+[9.128098] (-) TimerEvent: {}
+[9.215982] (robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[9.228863] (-) TimerEvent: {}
+[9.331758] (-) TimerEvent: {}
+[9.443558] (-) TimerEvent: {}
+[9.547541] (-) TimerEvent: {}
+[9.649523] (-) TimerEvent: {}
+[9.667671] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[9.764873] (-) TimerEvent: {}
+[9.868510] (-) TimerEvent: {}
+[9.972605] (-) TimerEvent: {}
+[10.073041] (-) TimerEvent: {}
+[10.126586] (robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.127583] (robot_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[10.127947] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.137724] (robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[10.141057] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.149747] (robot_description) StdoutLine: {'line': b'-- Configuring done (4.2s)\n'}
+[10.153727] (robot_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[10.160567] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description\n'}
+[10.174279] (robot_description) CommandEnded: {'returncode': 0}
+[10.174562] (-) TimerEvent: {}
+[10.179265] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[10.179823] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description', '--', '-j1', '-l1'], 'cwd': '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'entho', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/entho', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2159', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=87ea94a548ca75c75469a0a56727b7fb', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'entho', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'entho', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/entho-VirtualBox:@/tmp/.ICE-unix/2159,unix/entho-VirtualBox:/tmp/.ICE-unix/2159', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d5185794_d4a4_426c_9abb_84cdcf8d4da3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GM3IW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=87ea94a548ca75c75469a0a56727b7fb', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.275837] (-) TimerEvent: {}
+[10.314749] (robot_description) CommandEnded: {'returncode': 0}
+[10.381920] (-) TimerEvent: {}
+[10.467711] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[10.482176] (-) TimerEvent: {}
+[10.509705] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description'], 'cwd': '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'entho', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/entho', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2159', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=87ea94a548ca75c75469a0a56727b7fb', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'entho', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'entho', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/entho-VirtualBox:@/tmp/.ICE-unix/2159,unix/entho-VirtualBox:/tmp/.ICE-unix/2159', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d5185794_d4a4_426c_9abb_84cdcf8d4da3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GM3IW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=87ea94a548ca75c75469a0a56727b7fb', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.543492] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.543914] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//urdf\n'}
+[10.544208] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//urdf/model.urdf\n'}
+[10.544542] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//launch\n'}
+[10.544901] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//launch/display.launch.py\n'}
+[10.545150] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//launch/display.launch.xml\n'}
+[10.545375] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//meshes\n'}
+[10.545580] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//meshes/Wheel.STL\n'}
+[10.565495] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//meshes/chassisWithMotor.STL\n'}
+[10.582600] (-) TimerEvent: {}
+[10.695678] (-) TimerEvent: {}
+[10.799703] (-) TimerEvent: {}
+[10.902488] (-) TimerEvent: {}
+[10.922626] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//meshes/Chassis.STL\n'}
+[11.005654] (-) TimerEvent: {}
+[11.109565] (-) TimerEvent: {}
+[11.211554] (-) TimerEvent: {}
+[11.313618] (-) TimerEvent: {}
+[11.376545] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//rviz\n'}
+[11.376902] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//rviz/rviz_config.rviz\n'}
+[11.377889] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[11.378363] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[11.378789] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[11.379133] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[11.379698] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/environment/path.sh\n'}
+[11.379818] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[11.380139] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/local_setup.bash\n'}
+[11.380517] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/local_setup.sh\n'}
+[11.380840] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[11.381917] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[11.382153] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/package.dsv\n'}
+[11.386816] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[11.386968] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[11.387235] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[11.387541] (robot_description) StdoutLine: {'line': b'-- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/package.xml\n'}
+[11.389128] (robot_description) CommandEnded: {'returncode': 0}
+[11.417550] (-) TimerEvent: {}
+[11.517893] (-) TimerEvent: {}
+[11.581497] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[11.582131] (-) EventReactorShutdown: {}

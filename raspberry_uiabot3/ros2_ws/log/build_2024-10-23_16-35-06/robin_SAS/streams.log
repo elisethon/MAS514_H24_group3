@@ -1,0 +1,22 @@
+[2.193s] Invoking command in '/home/uiabot/ros2_ws/src/robin_SAS': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/uiabot/ros2_ws/build/robin_SAS/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robin_SAS build --build-base /home/uiabot/ros2_ws/build/robin_SAS/build install --record /home/uiabot/ros2_ws/build/robin_SAS/install.log --single-version-externally-managed install_data
+[2.561s] running egg_info
+[2.586s] writing ../../build/robin_SAS/robin_SAS.egg-info/PKG-INFO
+[2.589s] writing dependency_links to ../../build/robin_SAS/robin_SAS.egg-info/dependency_links.txt
+[2.590s] writing entry points to ../../build/robin_SAS/robin_SAS.egg-info/entry_points.txt
+[2.595s] writing requirements to ../../build/robin_SAS/robin_SAS.egg-info/requires.txt
+[2.595s] writing top-level names to ../../build/robin_SAS/robin_SAS.egg-info/top_level.txt
+[2.649s] reading manifest file '../../build/robin_SAS/robin_SAS.egg-info/SOURCES.txt'
+[2.651s] writing manifest file '../../build/robin_SAS/robin_SAS.egg-info/SOURCES.txt'
+[2.651s] running build
+[2.651s] running build_py
+[2.654s] running install
+[2.663s] running install_lib
+[2.691s] running install_data
+[2.692s] running install_egg_info
+[2.720s] removing '/home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages/robin_SAS-0.0.0-py3.12.egg-info' (and everything under it)
+[2.721s] Copying ../../build/robin_SAS/robin_SAS.egg-info to /home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages/robin_SAS-0.0.0-py3.12.egg-info
+[2.723s] running install_scripts
+[2.903s] Installing joint_state_publisher script to /home/uiabot/ros2_ws/install/robin_SAS/lib/robin_SAS
+[2.904s] Installing teleop_to_serial script to /home/uiabot/ros2_ws/install/robin_SAS/lib/robin_SAS
+[2.906s] writing list of installed files to '/home/uiabot/ros2_ws/build/robin_SAS/install.log'
+[3.025s] Invoked command in '/home/uiabot/ros2_ws/src/robin_SAS' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/uiabot/ros2_ws/build/robin_SAS/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robin_SAS build --build-base /home/uiabot/ros2_ws/build/robin_SAS/build install --record /home/uiabot/ros2_ws/build/robin_SAS/install.log --single-version-externally-managed install_data
