@@ -9,10 +9,15 @@ sudo apt install ros-jazzy-twist-mux
 
 
 # Assign. 2
-
+sudo apt install ros-jazzy-joint-state-publisher-gui
+sudo apt install ros-jazzy-robot-state-publisher
+sudo apt install ros-jazzy-tf-transformations
 
 
 # Assign. 3
+sudo apt install ros-jazzy-joint-state-publisher-gui
+sudo apt install ros-jazzy-robot-state-publisher
+sudo apt install ros-jazzy-tf-transformations
 sudo apt install ros-jazzy-slam-toolbox
 sudo apt install ros-jazzy-robot-localization
 
