@@ -1,34 +1,28 @@
-# Needed packages for the project
+# ROS2 dependencies (assumes Jazzy)
+# List of required packages for each assignment.
 
-# Assign. 1
-sudo apt update
-sudo apt install ros-jazzy-teleop-twist-joy
-sudo apt install ros-jazzy-joy
-sudo apt install python3-serial
-sudo apt install ros-jazzy-twist-mux
-
-
-# Assign. 2
-sudo apt install ros-jazzy-joint-state-publisher-gui
-sudo apt install ros-jazzy-robot-state-publisher
-sudo apt install ros-jazzy-tf-transformations
+# Assignment 1
+ros-jazzy-teleop-twist-joy       # For joystick-based teleoperation
+ros-jazzy-joy                   # Joystick support
+python3-serial                  # Serial communication
 
 
-# Assign. 3
-sudo apt install ros-jazzy-joint-state-publisher-gui
-sudo apt install ros-jazzy-robot-state-publisher
-sudo apt install ros-jazzy-tf-transformations
-sudo apt install ros-jazzy-slam-toolbox
-sudo apt install ros-jazzy-robot-localization
+# Assignment 2
+ros-jazzy-joint-state-publisher-gui  # GUI for joint state publisher
+ros-jazzy-robot-state-publisher      # Publishes robot state transforms
+ros-jazzy-tf-transformations         # TF transformations library
 
+# Assignment 3
+ros-jazzy-slam-toolbox               # SLAM for mapping
+ros-jazzy-robot-localization         # Sensor fusion for localization
 
-sudo apt install libgeographiclib-dev
-sudo apt install ros-jazzy-geographic-msgs
-sudo apt install ros-jazzy-diagnostic-updater
-sudo apt install ros-jazzy-message-filters
+# Assignment 4
+ros-jazzy-navigation2                # Navigation stack
+ros-jazzy-nav2-bringup               # Nav2 bringup launch utilities
 
-# Assign. 4
-
-
-# CAN BE SKIPPED
-sudo apt install ros-jazzy-teleop-twist-keyboard
+# Optional
+ros-jazzy-teleop-twist-keyboard      # Keyboard teleoperation
+ros-jazzy-geographic-msgs            # Geographic coordinate messages
+ros-jazzy-twist-mux             # Command velocity multiplexer
+ros-jazzy-diagnostic-updater         # Diagnostic updater tools
+ros-jazzy-message-filters            # Filters for ROS messages
