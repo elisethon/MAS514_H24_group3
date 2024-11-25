@@ -1,0 +1,56 @@
+[0.023s] Invoking command in '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description
+[0.854s] -- The C compiler identification is GNU 13.2.0
+[1.797s] -- The CXX compiler identification is GNU 13.2.0
+[1.909s] -- Detecting C compiler ABI info
+[2.448s] -- Detecting C compiler ABI info - done
+[2.476s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.519s] -- Detecting C compile features
+[2.520s] -- Detecting C compile features - done
+[2.568s] -- Detecting CXX compiler ABI info
+[2.976s] -- Detecting CXX compiler ABI info - done
+[2.997s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.998s] -- Detecting CXX compile features
+[3.001s] -- Detecting CXX compile features - done
+[3.026s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.490s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.942s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.400s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.401s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.402s] -- Added test 'lint_cmake' to check CMake code style
+[4.412s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.415s] -- Added test 'xmllint' to check XML markup files
+[4.424s] -- Configuring done (4.2s)
+[4.428s] -- Generating done (0.0s)
+[4.434s] -- Build files have been written to: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description
+[4.448s] Invoked command in '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description
+[4.454s] Invoking command in '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description -- -j1 -l1
+[4.589s] Invoked command in '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description -- -j1 -l1
+[4.784s] Invoking command in '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description
+[4.817s] -- Install configuration: ""
+[4.818s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//urdf
+[4.818s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//urdf/model.urdf
+[4.818s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//launch
+[4.819s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//launch/display.launch.py
+[4.819s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//launch/display.launch.xml
+[4.819s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//meshes
+[4.819s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//meshes/Wheel.STL
+[4.839s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//meshes/chassisWithMotor.STL
+[5.197s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//meshes/Chassis.STL
+[5.650s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//rviz
+[5.651s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description//rviz/rviz_config.rviz
+[5.652s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[5.652s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[5.653s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[5.653s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[5.654s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/environment/path.sh
+[5.654s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/environment/path.dsv
+[5.654s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/local_setup.bash
+[5.654s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/local_setup.sh
+[5.655s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/local_setup.zsh
+[5.656s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/local_setup.dsv
+[5.656s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/package.dsv
+[5.661s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[5.661s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[5.661s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[5.661s] -- Installing: /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/robot_description/share/robot_description/package.xml
+[5.663s] Invoked command in '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/robot_description

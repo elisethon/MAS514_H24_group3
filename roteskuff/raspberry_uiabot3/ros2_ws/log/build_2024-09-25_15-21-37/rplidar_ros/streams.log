@@ -1,0 +1,74 @@
+[0.013s] Invoking command in '/home/uiabot/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/ros2_ws/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uiabot/ros2_ws/install/rplidar_ros
+[0.035s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.358s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.372s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.404s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.417s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.433s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.534s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.535s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.625s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.706s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.776s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.953s] -- Configuring done (0.9s)
+[1.008s] -- Generating done (0.0s)
+[1.022s] -- Build files have been written to: /home/uiabot/ros2_ws/build/rplidar_ros
+[1.038s] Invoked command in '/home/uiabot/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/ros2_ws/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uiabot/ros2_ws/install/rplidar_ros
+[1.041s] Invoking command in '/home/uiabot/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/ros2_ws/build/rplidar_ros -- -j4 -l4
+[1.147s] [  2%] [32m[1mLinking CXX executable rplidar_client[0m
+[1.171s] [  5%] [32m[1mLinking CXX executable rplidar_composition[0m
+[1.179s] [  7%] [32m[1mLinking CXX executable rplidar_node[0m
+[2.580s] [ 52%] Built target rplidar_composition
+[2.586s] [ 97%] Built target rplidar_node
+[2.698s] [100%] Built target rplidar_client
+[2.718s] Invoked command in '/home/uiabot/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/ros2_ws/build/rplidar_ros -- -j4 -l4
+[2.824s] Invoking command in '/home/uiabot/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/ros2_ws/build/rplidar_ros
+[2.838s] -- Install configuration: ""
+[2.839s] -- Execute custom install script
+[2.839s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[2.856s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[2.873s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[2.889s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[2.906s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[2.923s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[2.939s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[2.956s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[2.972s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[2.989s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[3.006s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[3.022s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[3.038s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[3.055s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[3.071s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[3.088s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[3.105s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[3.122s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[3.139s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[3.156s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[3.172s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[3.189s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[3.206s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[3.223s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[3.240s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[3.257s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[3.275s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[3.292s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[3.311s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[3.328s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[3.345s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[3.362s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[3.379s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[3.395s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[3.412s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[3.429s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[3.446s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[3.463s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[3.480s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[3.496s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[3.513s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.530s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.547s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[3.564s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[3.582s] -- Symlinking: /home/uiabot/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[3.601s] Invoked command in '/home/uiabot/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/ros2_ws/build/rplidar_ros

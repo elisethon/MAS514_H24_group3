@@ -1,0 +1,32 @@
+[2.275s] Invoking command in '/home/uiabot/ros2_ws/src/robin_SAS': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/uiabot/ros2_ws/build/robin_SAS/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robin_SAS build --build-base /home/uiabot/ros2_ws/build/robin_SAS/build install --record /home/uiabot/ros2_ws/build/robin_SAS/install.log --single-version-externally-managed install_data
+[2.652s] running egg_info
+[2.677s] writing ../../build/robin_SAS/robin_SAS.egg-info/PKG-INFO
+[2.678s] writing dependency_links to ../../build/robin_SAS/robin_SAS.egg-info/dependency_links.txt
+[2.679s] writing entry points to ../../build/robin_SAS/robin_SAS.egg-info/entry_points.txt
+[2.680s] writing requirements to ../../build/robin_SAS/robin_SAS.egg-info/requires.txt
+[2.682s] writing top-level names to ../../build/robin_SAS/robin_SAS.egg-info/top_level.txt
+[2.737s] reading manifest file '../../build/robin_SAS/robin_SAS.egg-info/SOURCES.txt'
+[2.739s] writing manifest file '../../build/robin_SAS/robin_SAS.egg-info/SOURCES.txt'
+[2.739s] running build
+[2.739s] running build_py
+[2.742s] copying robin_SAS/teleop_to_serial.py -> /home/uiabot/ros2_ws/build/robin_SAS/build/lib/robin_SAS
+[2.742s] copying robin_SAS/joint_state_publisher.py -> /home/uiabot/ros2_ws/build/robin_SAS/build/lib/robin_SAS
+[2.742s] copying robin_SAS/imu_tf_broadcaster.py -> /home/uiabot/ros2_ws/build/robin_SAS/build/lib/robin_SAS
+[2.743s] running install
+[2.752s] running install_lib
+[2.778s] copying /home/uiabot/ros2_ws/build/robin_SAS/build/lib/robin_SAS/imu_tf_broadcaster.py -> /home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages/robin_SAS
+[2.779s] copying /home/uiabot/ros2_ws/build/robin_SAS/build/lib/robin_SAS/joint_state_publisher.py -> /home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages/robin_SAS
+[2.779s] copying /home/uiabot/ros2_ws/build/robin_SAS/build/lib/robin_SAS/teleop_to_serial.py -> /home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages/robin_SAS
+[2.780s] byte-compiling /home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages/robin_SAS/imu_tf_broadcaster.py to imu_tf_broadcaster.cpython-312.pyc
+[2.781s] byte-compiling /home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages/robin_SAS/joint_state_publisher.py to joint_state_publisher.cpython-312.pyc
+[2.782s] byte-compiling /home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages/robin_SAS/teleop_to_serial.py to teleop_to_serial.cpython-312.pyc
+[2.782s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (teleop_to_serial.py, line 18)
+[2.782s] running install_data
+[2.784s] running install_egg_info
+[2.813s] removing '/home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages/robin_SAS-0.0.0-py3.12.egg-info' (and everything under it)
+[2.814s] Copying ../../build/robin_SAS/robin_SAS.egg-info to /home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages/robin_SAS-0.0.0-py3.12.egg-info
+[2.815s] running install_scripts
+[2.997s] Installing joint_state_publisher script to /home/uiabot/ros2_ws/install/robin_SAS/lib/robin_SAS
+[2.999s] Installing teleop_to_serial script to /home/uiabot/ros2_ws/install/robin_SAS/lib/robin_SAS
+[3.000s] writing list of installed files to '/home/uiabot/ros2_ws/build/robin_SAS/install.log'
+[3.115s] Invoked command in '/home/uiabot/ros2_ws/src/robin_SAS' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/uiabot/ros2_ws/build/robin_SAS/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uiabot/ros2_ws/install/robin_SAS/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robin_SAS build --build-base /home/uiabot/ros2_ws/build/robin_SAS/build install --record /home/uiabot/ros2_ws/build/robin_SAS/install.log --single-version-externally-managed install_data

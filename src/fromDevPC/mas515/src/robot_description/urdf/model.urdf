@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<robot name="simple_robot">
+
+    <!-- Colors for the robot -->
+    <material name="red">
+        <color rgba="1.0 0.0 0.0 1.0"/>
+    </material>
+    <material name="grey">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+    </material>
+    <material name="white">
+        <color rgba="1.0 1.0 1.0 0.80"/>
+    </material>
+
+
+
+    <!-- base_link = global frame -->
+    <link name="base_link">
+    </link>
+
+
+
+    <!-- *************** Chassis *************** -->
+    <link name="chassis">
+        <visual>
+            <!-- Orientation -->
+            <origin xyz="0 0 0" rpy="1.570796 0 0"/> 
+            <geometry>
+                <!-- STL file for visualization -->
+                 <mesh filename="package://robot_description/meshes/chassisWithMotor.STL" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="grey"/>                                              
+        </visual>
+        <collision>
+            <geometry>
+                <!-- STL file for colission -->
+                <mesh filename="package://robot_description/meshes/chassisWithMotor.STL" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>  
+    </link> 
+    <!-- Base link to chassis joint definition -->
+    <joint name="base_to_chassis_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="chassis"/>
+        <origin xyz="0 0 0.017" rpy="0 0 0"/>
+    </joint>
+
+
+
+    <!-- ************************ Right Wheel ******************  -->
+    <link name="right_wheel">
+        <visual>
+            <!-- the origin here defines the xyz and rpy positon of the coordinate system of right wheel-->
+            <origin xyz="0 0 0" rpy="0 0 0"/> 
+            <geometry>
+                 <mesh filename="package://robot_description/meshes/Wheel.STL" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="red"/>                                             
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Wheel.STL" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>  
+    </link> 
+    <!-- Right wheel and its joint definition -->
+    <joint name="chassis_right_Wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_wheel"/>
+        <origin xyz="0 -0.08 0.01675" rpy="1.570796 0 0"/>
+        <axis xyz="0 0 1"/>
+    </joint>
+
+
+
+    <!-- *********************** Here comes the left wheel ******************** -->
+    <link name="left_wheel">
+        <visual>
+            <!-- the origin here defines the xyz and rpy positon of the coordinate system of left wheel-->
+            <origin xyz="0 0 0" rpy="0 0 0"/> 
+            <geometry>
+                 <mesh filename="package://robot_description/meshes/leftWheel.STL" scale="1 1 1"/>
+            </geometry>
+            <material name="red"/>                                             
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/leftWheel.STL" scale="1 1 1"/>
+            </geometry>
+        </collision>  
+    </link> 
+    <!-- Left wheel and its joint definition -->
+        <joint name="chassis_left_Wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_wheel"/>
+        <origin xyz="0 0.080 0.01675" rpy="-1.570796 0 0"/>
+        <axis xyz="0 0 1"/>
+    </joint>
+
+
+
+    <!-- ******************** LiDAR ********************** -->
+    <link name="laser">
+        <visual>
+            <geometry>
+                <!-- Laser as a cylinder -->
+                <cylinder length="0.02" radius="0.025"/>
+            </geometry>
+            <material name="white"/>
+        </visual>
+        <collision>
+            <geometry>
+                <!-- here the laser is made just as a cylinder -->
+                <cylinder length="0.04" radius="0.025"/>
+            </geometry>
+        </collision>
+    </link>
+    <!-- Lidar and its joint definition -->
+    <joint name="laser_joint" type="fixed">
+        <parent link="chassis"/>
+        <child link="laser"/>
+        <origin xyz="0.03 0 0.18" rpy="0 0 0" />    
+    </joint>
+
+
+
+    <!-- ********************* IMU ********************* -->
+    <link name="bno055">
+    <visual>
+        <geometry>
+            <!-- bno055 -->
+            <box size="0.02 0.02 0.02"/>
+        </geometry>
+        <material name="red"/>
+    </visual>
+        <collision>
+            <geometry>
+                <!-- collision box-->
+                <box size="0.02 0.02 0.02"/>
+            </geometry>
+        </collision>
+    </link>
+    <!-- IMU and its joint definition -->
+    <joint name="bno055_joint" type="fixed">
+        <parent link="chassis"/>
+        <child link="bno055"/>
+        <origin xyz="0.07 0.05 0.09" rpy="0 0 1.570796" />
+    </joint>
+
+
+
+</robot>
+

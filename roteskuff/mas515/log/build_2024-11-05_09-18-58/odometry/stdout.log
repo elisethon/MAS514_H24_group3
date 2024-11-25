@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/odometry/odometry.egg-info/PKG-INFO
+writing dependency_links to ../../build/odometry/odometry.egg-info/dependency_links.txt
+writing entry points to ../../build/odometry/odometry.egg-info/entry_points.txt
+writing requirements to ../../build/odometry/odometry.egg-info/requires.txt
+writing top-level names to ../../build/odometry/odometry.egg-info/top_level.txt
+reading manifest file '../../build/odometry/odometry.egg-info/SOURCES.txt'
+writing manifest file '../../build/odometry/odometry.egg-info/SOURCES.txt'
+running build
+running build_py
+copying odometry/odometry_publisher.py -> /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/build/lib/odometry
+running install
+running install_lib
+copying /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/build/lib/odometry/odometry_publisher.py -> /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/python3.12/site-packages/odometry
+byte-compiling /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisher.py to odometry_publisher.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/python3.12/site-packages/odometry-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/odometry/odometry.egg-info to /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/python3.12/site-packages/odometry-0.0.0-py3.12.egg-info
+running install_scripts
+Installing odometry_publisher script to /home/entho/ros2_ws/MAS514_H24_group3/src/mas515/install/odometry/lib/odometry
+writing list of installed files to '/home/entho/ros2_ws/MAS514_H24_group3/src/mas515/build/odometry/install.log'

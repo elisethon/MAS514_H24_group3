@@ -1,3 +1,0 @@
-[console_scripts]
-joint_state_publisher = robin_SAS.joint_state_publisher:main
-teleop_to_serial = robin_SAS.teleop_to_serial:main

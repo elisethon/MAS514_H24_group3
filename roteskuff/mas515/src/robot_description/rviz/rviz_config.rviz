@@ -1,0 +1,265 @@
+# RViz2 config with RobotModel, TF, Odom displays, and default tools with Orbit view
+Panels:
+- Class: rviz_common/Displays
+  Help Height: 78
+  Help Visible: true
+  Name: Displays
+- Class: rviz_default_plugins/ToolManager  # Updated class name for RViz2 compatibility
+  Expanded: true
+  Name: Tools
+  Tools:
+    - Class: rviz_default_plugins/tools/measure
+      Name: Measure
+    - Class: rviz_default_plugins/tools/interact
+      Name: Interact
+    - Class: rviz_default_plugins/tools/move_camera
+      Name: Move Camera
+    - Class: rviz_default_plugins/tools/rotate_camera
+      Name: Rotate Camera
+    - Class: rviz_default_plugins/tools/zoom_camera
+      Name: Zoom Camera
+    - Class: rviz_default_plugins/tools/focus_camera
+      Name: Focus Camera
+    - Class: rviz_default_plugins/tools/set_initial_pose
+      Name: 2D Pose Estimate
+    - Class: rviz_default_plugins/tools/set_goal
+      Name: 2D Nav Goal
+
+- Class: rviz_common/Views
+  Expanded: true
+  Name: Views
+
+Visualization Manager:
+  Global Options:
+    Fixed Frame: odom  # Adjust to your robot’s base frame
+
+  Displays:
+    # Grid Display
+    - Name: Grid
+      Class: rviz_default_plugins/Grid
+      Enabled: true
+      Cell Size: 1
+      Plane Cell Count: 10
+
+    # Robot Model Display with robot_description as the topic
+    - Name: RobotModel
+      Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Description Topic: robot_description  # This automatically sets the topic
+
+    # TF Display for visualizing transforms
+    - Name: TF
+      Class: rviz_default_plugins/TF
+      Enabled: true
+      Show Axes: false
+      Show Names: false
+
+    # Odometry Display
+    - Name: Odom
+      Class: rviz_default_plugins/Odometry
+      Enabled: true
+      Topic: /odom  # Change this if your odometry topic is different
+      Keep: 30
+      Color: 1.0, 0.0, 0.0  # Red color for visibility
+      Shape: none
+
+  Views:
+    Current:
+      Class: rviz_default_plugins/ThirdPersonFollower   # Set default view to Orbit
+      Focal Point: [0, 0, 0]
+      Distance: 15
+      Pitch: 0.75 #1.5708
+      Yaw: 0
+
+    # Uncomment the following lines to use TopDownOrtho instead of Orbit view
+    # Current:
+    #   Class: rviz_default_plugins/TopDownOrtho
+    #   Scale: 1
+    #   Ortho: true
+    #   Focal Point: [0, 0, 0]
+
+
+    # Uncomment the following lines to use TopDownOrtho instead of Orbit view
+    # Current:
+    #   Class: rviz_default_plugins/TopDownOrtho
+    #   Scale: 1
+    #   Ortho: true
+    #   Focal Point: [0, 0, 0]
+
+
+
+
+
+# # RViz2 config with RobotModel, TF, Odom displays and default tools
+# Panels:
+# - Class: rviz_common/Displays
+#   Help Height: 78
+#   Help Visible: true
+#   Name: Displays
+# - Class: rviz_common/ToolManager
+#   Expanded: true
+#   Name: Tools
+#   Tools:
+#     - Class: rviz_default_plugins/tools/measure
+#       Name: Measure
+#     - Class: rviz_default_plugins/tools/interact
+#       Name: Interact  # Adds the Interact tool
+#     - Class: rviz_default_plugins/tools/move_camera
+#       Name: Move Camera
+#     - Class: rviz_default_plugins/tools/rotate_camera
+#       Name: Rotate Camera
+#     - Class: rviz_default_plugins/tools/zoom_camera
+#       Name: Zoom Camera
+#     - Class: rviz_default_plugins/tools/focus_camera
+#       Name: Focus Camera
+
+# - Class: rviz_common/Views
+#   Expanded: true
+#   Name: Views
+
+# Visualization Manager:
+#   Global Options:
+#     Fixed Frame: odom # Adjust to your robot’s base frame
+
+#   Displays:
+#     # Grid Display
+#     - Name: Grid
+#       Class: rviz_default_plugins/Grid
+#       Enabled: true
+#       Cell Size: 1
+#       Plane Cell Count: 10
+
+#     # Robot Model Display with robot_description as the topic
+#     - Name: RobotModel
+#       Class: rviz_default_plugins/RobotModel
+#       Enabled: true
+#       Robot Description: robot_description  # Ensures this parameter matches your URDF topic
+
+#     # TF Display for visualizing transforms
+#     - Name: TF
+#       Class: rviz_default_plugins/TF
+#       Enabled: true
+#       Show Axes: false
+#       Show Names: false
+
+#     # Odometry Display
+#     - Name: Odom
+#       Class: rviz_default_plugins/Odometry
+#       Enabled: true
+#       Topic: /odom  # Change this if your odometry topic is different
+#       Keep: 100
+#       Color: 1.0, 0.0, 0.0  # Red color for visibility
+
+#   Views:
+#     Current:
+#       Class: rviz_default_plugins/Orbit
+#       Focal Point: [0, 0, 0]
+#       Distance: 10
+#       Pitch: 1.5708
+#       Yaw: 0
+
+
+
+
+# # # Simple RViz2 config with RobotModel, TF, and Odometry displays
+# # Panels:
+# # - Class: rviz_common/Displays
+# #   Help Height: 78
+# #   Help Visible: true
+# #   Name: Displays
+# # - Class: rviz_common/ToolManager
+# #   Expanded: false
+# #   Name: Tools
+# #   Tools:
+# #     - Class: rviz_default_plugins/tools/move_camera
+# #       Name: 2D Pose Estimate
+# #     - Class: rviz_default_plugins/tools/measure
+# #       Name: Measure
+# # - Class: rviz_common/Views
+# #   Expanded: true
+# #   Name: Views
+
+# # Visualization Manager:
+# #   Global Options:
+# #     Fixed Frame: odom  # Adjust to your robot’s base frame
+
+# #   Displays:
+# #     # Grid Display
+# #     - Name: Grid
+# #       Class: rviz_default_plugins/Grid
+# #       Enabled: true
+# #       Cell Size: 1
+# #       Plane Cell Count: 10
+
+# #     # Robot Model Display
+# #     - Name: RobotModel
+# #       Class: rviz_default_plugins/RobotModel
+# #       Enabled: true
+# #       Robot Description: robot_description  # This must match the parameter name for URDF
+
+# #     # TF Display for visualizing transforms
+# #     - Name: TF
+# #       Class: rviz_default_plugins/TF
+# #       Enabled: true
+# #       Show Axes: false
+# #       Show Names: false
+
+# #     # # Odometry Display
+# #     # - Name: Odom
+# #     #   Class: rviz_default_plugins/Odometry
+# #     #   Enabled: true
+# #     #   Topic: /odom  # Adjust this if your odometry topic is different
+# #     #   Keep: 100
+# #     #   Color: 1.0, 0.0, 0.0  # Set color as red for visibility
+
+# #   Views:
+# #     Current:
+# #       Class: rviz_default_plugins/Orbit
+# #       Focal Point: [0, 0, 0]
+# #       Distance: 10
+# #       Pitch: 1.5708
+# #       Yaw: 0
+
+
+
+
+
+
+# # # # Saved by RViz 2. Navigate to this file location using RViz if you want to further configure it.
+# # # Panels:
+# # # - Class: rviz_common/Displays
+# # #   Help Height: 78
+# # #   Help Visible: true
+# # #   Name: Displays
+# # # - Class: rviz_common/ToolManager
+# # #   Expanded: false
+# # #   Name: Tools
+# # #   Tools:
+# # #     - Class: rviz_default_plugins/tools/move_camera
+# # #       Name: 2D Pose Estimate
+# # #     - Class: rviz_default_plugins/tools/measure
+# # #       Name: Measure
+# # # - Class: rviz_common/Views
+# # #   Expanded: true
+# # #   Name: Views
+
+# # # Visualization Manager:
+# # #   Global Options:
+# # #     Fixed Frame: odom  # Adjust to your robot’s base frame
+# # #   Displays:
+# # #     - Name: Grid
+# # #       Class: rviz_default_plugins/Grid
+# # #       Enabled: true
+# # #       Cell Size: 1
+# # #       Plane Cell Count: 10
+# # #     - Name: RobotModel
+# # #       Class: rviz_default_plugins/RobotModel
+# # #       Enabled: true
+# # #       Robot Description: robot_description  # This must match the parameter name
+# # #   Views:
+# # #     Current:
+# # #       Class: rviz_default_plugins/Orbit
+# # #       Focal Point: [0, 0, 0]
+# # #       Distance: 10
+# # #       Pitch: 1.5708
+# # #       Yaw: 0

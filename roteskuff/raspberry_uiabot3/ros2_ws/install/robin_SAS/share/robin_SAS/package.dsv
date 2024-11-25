@@ -1,0 +1,6 @@
+source;share/robin_SAS/hook/pythonpath.ps1
+source;share/robin_SAS/hook/pythonpath.dsv
+source;share/robin_SAS/hook/pythonpath.sh
+source;share/robin_SAS/hook/ament_prefix_path.ps1
+source;share/robin_SAS/hook/ament_prefix_path.dsv
+source;share/robin_SAS/hook/ament_prefix_path.sh

@@ -1,0 +1,73 @@
+[0.799s] Invoking command in '/home/asle/mas515v2/mas515/src/odometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asle/mas515v2/build/odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asle/mas515v2/install/odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/odometry build --build-base /home/asle/mas515v2/build/odometry/build install --record /home/asle/mas515v2/build/odometry/install.log --single-version-externally-managed install_data
+[1.080s] running egg_info
+[1.080s] creating ../../../build/odometry/odometry.egg-info
+[1.102s] writing ../../../build/odometry/odometry.egg-info/PKG-INFO
+[1.103s] writing dependency_links to ../../../build/odometry/odometry.egg-info/dependency_links.txt
+[1.103s] writing entry points to ../../../build/odometry/odometry.egg-info/entry_points.txt
+[1.103s] writing requirements to ../../../build/odometry/odometry.egg-info/requires.txt
+[1.104s] writing top-level names to ../../../build/odometry/odometry.egg-info/top_level.txt
+[1.104s] writing manifest file '../../../build/odometry/odometry.egg-info/SOURCES.txt'
+[1.147s] reading manifest file '../../../build/odometry/odometry.egg-info/SOURCES.txt'
+[1.148s] writing manifest file '../../../build/odometry/odometry.egg-info/SOURCES.txt'
+[1.148s] running build
+[1.148s] running build_py
+[1.148s] creating /home/asle/mas515v2/build/odometry/build
+[1.148s] creating /home/asle/mas515v2/build/odometry/build/lib
+[1.148s] creating /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.148s] copying odometry/odometry_publisher666.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.148s] copying odometry/odometry_publisher.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.148s] copying odometry/odometry_publisherv3.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.149s] copying odometry/odometry_publisherv2.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.149s] copying odometry/odometry_publisher888.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.149s] copying odometry/velocity_publisher.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.149s] copying odometry/__init__.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.149s] copying odometry/odometry_publisher copy.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.149s] copying odometry/odometry_publisher999.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.149s] copying odometry/odometry_publisherCurrent.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.149s] copying odometry/odometry_publisher101010.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.149s] copying odometry/odometry_publisher6667.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.149s] copying odometry/odometry_publisher333.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.149s] copying odometry/odometry_publisher copy 2.py -> /home/asle/mas515v2/build/odometry/build/lib/odometry
+[1.150s] running install
+[1.155s] running install_lib
+[1.177s] creating /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.177s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/odometry_publisher666.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.177s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/odometry_publisher.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.177s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/odometry_publisherv3.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.177s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/odometry_publisherv2.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.177s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/odometry_publisher888.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.177s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/velocity_publisher.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.177s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/__init__.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.177s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/odometry_publisher copy.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.178s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/odometry_publisher999.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.178s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/odometry_publisherCurrent.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.178s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/odometry_publisher101010.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.178s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/odometry_publisher6667.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.178s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/odometry_publisher333.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.178s] copying /home/asle/mas515v2/build/odometry/build/lib/odometry/odometry_publisher copy 2.py -> /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry
+[1.178s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisher666.py to odometry_publisher666.cpython-312.pyc
+[1.179s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisher.py to odometry_publisher.cpython-312.pyc
+[1.180s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisherv3.py to odometry_publisherv3.cpython-312.pyc
+[1.181s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisherv2.py to odometry_publisherv2.cpython-312.pyc
+[1.182s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisher888.py to odometry_publisher888.cpython-312.pyc
+[1.183s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/velocity_publisher.py to velocity_publisher.cpython-312.pyc
+[1.184s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/__init__.py to __init__.cpython-312.pyc
+[1.184s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisher copy.py to odometry_publisher copy.cpython-312.pyc
+[1.185s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisher999.py to odometry_publisher999.cpython-312.pyc
+[1.186s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisherCurrent.py to odometry_publisherCurrent.cpython-312.pyc
+[1.186s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisher101010.py to odometry_publisher101010.cpython-312.pyc
+[1.187s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisher6667.py to odometry_publisher6667.cpython-312.pyc
+[1.188s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisher333.py to odometry_publisher333.cpython-312.pyc
+[1.189s] byte-compiling /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry/odometry_publisher copy 2.py to odometry_publisher copy 2.cpython-312.pyc
+[1.190s] running install_data
+[1.190s] creating /home/asle/mas515v2/install/odometry/share/ament_index
+[1.190s] creating /home/asle/mas515v2/install/odometry/share/ament_index/resource_index
+[1.190s] creating /home/asle/mas515v2/install/odometry/share/ament_index/resource_index/packages
+[1.191s] copying resource/odometry -> /home/asle/mas515v2/install/odometry/share/ament_index/resource_index/packages
+[1.191s] copying package.xml -> /home/asle/mas515v2/install/odometry/share/odometry
+[1.191s] running install_egg_info
+[1.214s] Copying ../../../build/odometry/odometry.egg-info to /home/asle/mas515v2/install/odometry/lib/python3.12/site-packages/odometry-0.0.0-py3.12.egg-info
+[1.214s] running install_scripts
+[1.352s] Installing odometry_publisher script to /home/asle/mas515v2/install/odometry/lib/odometry
+[1.352s] writing list of installed files to '/home/asle/mas515v2/build/odometry/install.log'
+[1.371s] Invoked command in '/home/asle/mas515v2/mas515/src/odometry' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asle/mas515v2/build/odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asle/mas515v2/install/odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/odometry build --build-base /home/asle/mas515v2/build/odometry/build install --record /home/asle/mas515v2/build/odometry/install.log --single-version-externally-managed install_data

@@ -1,0 +1,23 @@
+[1.727s] Invoking command in '/home/uiabot/ros2_ws/src/bno055': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/uiabot/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uiabot/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/uiabot/ros2_ws/build/bno055/build install --record /home/uiabot/ros2_ws/build/bno055/install.log --single-version-externally-managed install_data
+[2.097s] running egg_info
+[2.122s] writing ../../build/bno055/bno055.egg-info/PKG-INFO
+[2.122s] writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt
+[2.125s] writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt
+[2.125s] writing requirements to ../../build/bno055/bno055.egg-info/requires.txt
+[2.129s] writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt
+[2.182s] reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[2.182s] adding license file 'LICENSE'
+[2.182s] adding license file 'AUTHORS'
+[2.183s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[2.183s] running build
+[2.183s] running build_py
+[2.185s] running install
+[2.194s] running install_lib
+[2.221s] running install_data
+[2.222s] running install_egg_info
+[2.249s] removing '/home/uiabot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055-0.5.0-py3.12.egg-info' (and everything under it)
+[2.250s] Copying ../../build/bno055/bno055.egg-info to /home/uiabot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055-0.5.0-py3.12.egg-info
+[2.251s] running install_scripts
+[2.431s] Installing bno055 script to /home/uiabot/ros2_ws/install/bno055/lib/bno055
+[2.432s] writing list of installed files to '/home/uiabot/ros2_ws/build/bno055/install.log'
+[2.561s] Invoked command in '/home/uiabot/ros2_ws/src/bno055' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/uiabot/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uiabot/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/uiabot/ros2_ws/build/bno055/build install --record /home/uiabot/ros2_ws/build/bno055/install.log --single-version-externally-managed install_data
